@@ -4,7 +4,7 @@ This algorithm in C count all the words in a .txt file, shows all the different 
 You just have to compile the code with **"make all"** then run with **"make run"**.
 
 ## All words go to a database
-After the execution, two .txt files will be created/updated: "word_stats.txt", and "broken_text.txt".
+After the execution, two .txt files will be created/updated: "word_stats.txt" and "broken_text.txt".
 
 The first one shows all words and their number in alphabetical order, while the last shows the text with all the words separated in new lines.
 
