@@ -14,4 +14,4 @@ The first one shows all words and their number in alphabetical order, while the 
 * This algorithm don't separate lowercase and uppercase characters, so words like "The" e "the" will be considered the same.
 
 ### BUG
-* If you find another bug, please contact me and I'll fix it.
+* If you find a bug, please contact me and I'll fix it.
