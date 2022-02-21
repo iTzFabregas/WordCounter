@@ -54,13 +54,15 @@ int main()
     printf("> Reading the new text words...\n\n");
     char* text_word = malloc(sizeof(char) * 32);
     unsigned long int* text_count = malloc(sizeof(unsigned long int));
+    
+    fgets(text_word, 32, arqin);
     while (!feof(arqin))
     {
-        fgets(text_word, 32, arqin);
         text_word[strlen(text_word) - 1] = '\0';
         *text_count = 1;
         total_words += (*text_count);
         insere_ArvAVL(root, text_word, *text_count);
+        fgets(text_word, 32, arqin);
     }
     free(text_word);
     free(text_count);
