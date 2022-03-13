@@ -11,7 +11,7 @@ The first one shows all words and their number in alphabetical order, while the 
 ## Important notes
 * This algorithm ignore non-alphabetical character, so, if the word is "it's", the dictionary will show "its".
 * If the word is separated by other character besides space or new-line, the algorithm will identify it as a unique word.
-* This algorithm don't separate lowercase and uppercase characters, so words like "The" e "the" will be considered the same.
+* This algorithm case insensitive, so words like "The" e "the" will be considered the same.
 
 ### BUG
 * If you find a bug, please contact me and I'll fix it.
